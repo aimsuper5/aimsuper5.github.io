@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+body{
+    background-image: url(../img/sms_s_dnem_rozhdenija_dlja_ljubimoj_devushki.jpg);
+}
+.conteiner{
+    margin-left: 150px;
+    padding-right: 0px;
+    margin-top: 150px;
+    display:inline-block;
+}
+.content{
+    border: red solid;
+    font-size:25px;
+    font-weight: 900;
+    color:#acb78e;
+    background-color: #fff;
+    padding-left: 10px;
+    display: inline-block;
+}
+.video{
+    margin-top: 150px;
+    margin-right: 200px;
+float: right;
+}

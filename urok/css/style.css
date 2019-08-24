@@ -1,0 +1,484 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;   
+}
+body{
+    font-family: 'Raleway', sans-serif;
+   
+}
+.container{
+    max-width: 1175px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.menu{
+    max-width: 79.57%;
+    margin-left: 22%;
+    margin-top: -100px;
+    font-size: 18px;
+    text-transform: uppercase;   
+    padding: 0px;
+    position: relative     ;
+    text-align: right;
+    
+}
+.menu a:hover{
+    color:#ffffff;
+    transition-delay: 0.025s
+}
+.menu a{
+    color: #a4a4a4;
+}
+.menu ul li{
+    padding-left: 2.97%;
+}
+#backlogo{
+    position: relative;
+    margin-left: -185px;
+    margin-top: -10px;
+}
+#logo{
+    position: relative;
+    float: left;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+.bgmenu{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+.header__menu{
+    margin-top: -767px;
+}
+.bg__header{
+    height: 705px;
+    width: 100%;
+    background-color: black;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;     
+    opacity: 0.6;
+}
+.top__line{
+    height: 3px;
+    width: 100%;
+    background-color: #262626;
+}
+.header__content{
+    width: 96.23%;
+    position: relative;
+    text-align: center;
+    margin-top: 167px;
+    display: inline-block;
+    color: #f0eeef;
+    font-size: 16px;
+}
+
+.btn{
+    margin-top: 50px;
+    margin-right: 15px;
+    width: 14.46%;
+    height: 50px;
+    background-color: #ff0036;
+    font-size: 20px;
+    color:#ffffff;
+    border: none;
+    text-transform: uppercase;
+}
+.btn2{
+    margin-top: 50px;
+    margin-left: 15px;
+    width: 14.46%;
+    height: 50px;
+    background-color: #131313;
+    font-size: 20px;
+    color:#ffffff;
+    border: none;
+    text-transform: uppercase;
+}
+#why{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 45px;
+    margin-right: 0.595%;
+}
+#why2{
+    color: #ff0036;
+    font-size: 30px;
+}
+#arrow__right{
+    float: right;
+    padding-right:2.97%;
+    margin-top: -510px;
+    position: relative;
+}
+#arrow__left{
+    float: left;
+    padding-left:2.97%;
+    margin-top: -510px;
+    position: relative;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+.header{
+    height: 779px;
+    margin-bottom: 96px;
+    background-image: url(../img/mainbg.png);  
+    background-position: center center;      
+    background-repeat: no-repeat;          
+    background-size: cover;      
+    background-color: #464646; 
+}
+.about_section{
+    background-image: url(../img/bgabout.png);
+}
+.col{
+    display: inline-block;
+    text-align: center;
+    height: 18.72%;
+    font-size: 12px;
+}
+.col2{
+    display: inline-block;
+    text-align: center;
+    height: 18.72%;
+    font-size: 12px;
+    margin-left: 7.40%;
+}
+.col3{
+    display: inline-block;
+    text-align: center;
+    height: 18.72%;
+    font-size: 12px;
+    margin-left: 7.40%;
+    margin-right: 7.40%;
+}
+.zagolovok2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: -4.8%;
+    height: 40px;
+}
+#why3{
+        color: #262626;
+        margin-bottom: 45px;
+        margin-right: 0.595%;
+
+}
+#why4{
+        color: #ff0036;
+}
+#podwhy4{
+    display: inline-block;
+    text-align: center;
+    margin-left: 4.8%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 36px;
+    margin-bottom: 104px;
+}
+.text__about{
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    max-width: 48.51%;
+    font-weight: 400;
+    margin-bottom: 45px;
+    
+}
+#aboutmenu{
+display: flex;
+
+
+}
+#triple{
+float: right;
+margin-top: -435px;
+margin-left: 30px;
+}
+#aboutline{
+    margin-left: 26%;
+    margin-top: 95px;
+    margin-bottom: 90px;
+}
+.section{
+    margin-bottom: 100px;
+    margin-left: 1.5%;
+}
+.portfolio_section{
+    height: 1075px;
+    background-color: #262626;
+    padding-top: 80px;
+    text-align: center;
+}
+#portfolio{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.portfolio_a a{
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+    color: #a4a4a4;
+    margin-right: 25px;
+    display: inline-block;
+}
+.portfolio_a a:hover{
+    color:#8b142d;
+    transition-delay: 0.025s
+} 
+#portfolio_img{
+    max-width: 100%;
+}
+.products{
+    height: 990px;
+}
+.aboutline2{
+    text-align: center;
+    margin-top: -35px;
+}
+.zagolovok3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: -4.8%;
+}
+#why5{
+        color: #262626;
+        margin-right: 0.595%;
+
+}
+#why6{
+        color: #ff0036;
+}
+#podwhy5{
+    display: inline-block;
+    text-align: center;
+    margin-left: 4.8%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 104px;
+}
+.worker1{
+    width: 23.7%;
+
+   
+    display: inline-block;
+}
+.worker2{
+    width: 23.7%;
+
+    display: inline-block;
+    margin-left: 1.24255%;
+    margin-right: 1.24255%;
+}
+.worker3{
+    width: 23.7%;
+    display: inline-block;
+    margin-right: 1.24255%;
+}
+.borderworkers{
+    width: 97.7%;
+    text-align: center;
+    border: 1px solid #e7e7e7;
+    margin-top: -4px;
+    font-size: 12px;
+    font-weight: regular;
+}
+#nameworker{
+    font-size: 20px;
+    font-weight: medium;
+    margin-bottom: 10px;
+}
+#nameworker:hover{
+    color:#8b142d;
+    transition-delay: 0.025s
+}
+.workerks{
+    margin-bottom: 100px;
+}
+.aboutline{
+    text-align: center;
+    margin-bottom: 72px;
+    margin-top: 82px;
+}
+.zagolovok4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: -4.8%;
+    margin-bottom: 95px;
+}
+#why7{
+        color: #262626;
+        margin-right: 0.595%;
+
+}
+#why8{
+        color: #ff0036;
+}
+.skills{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.skill1{
+    display: inline-block;
+}
+.skill2{
+    display: inline-block;
+    margin-left: 3.24255%;
+    margin-right: 3.24255%;
+}
+.skill3{
+    display: inline-block;
+    margin-right: 3.24255%;
+}
+.skillnames{
+    font-size: 16;
+    font-weight: regular;
+    color: #888888;
+}
+#skillname{
+    font-size: 20px;
+    font-weight: medium;
+    color: #262626;
+}
+.services_section{
+    height: 1125px;
+    background-color: #272727;
+    font-size: 16px;
+    font-weight: regular;
+}
+.zagolovok5{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: -4.8%;
+    margin-bottom: 27px;
+    padding-top: 66px;
+}
+#why9{
+        color: #fff;
+        margin-right: 0.595%;
+
+}
+#why10{
+        color: #ff0036;
+}
+#podwhy6{
+    display: inline-block;
+    text-align: center;
+    margin-left: 4.8%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 99px;
+    color:#a4a4a4;
+}
+.services{
+    display: block;
+    width: 49.36%;
+    height: 210px;
+}
+.services2{
+   display: block;
+   float: right;
+   margin-top: -210px;
+
+}
+#servicename1{
+    margin-left: 17.38%;
+    margin-top: -50px;
+}
+.servicename{
+    margin-bottom: 50px;
+}
+.lastp{
+    display: block;
+    margin-bottom: 60px;
+    background-color: #343434;
+    width: 102%;
+    margin-right: 30px;
+    padding: 12px 12px 12px 12px;
+    font-size: 16px;
+    color: #a4a4a4;
+    
+}
+.lastp1{
+    display: block;
+    margin-bottom: 60px;
+    background-color: #3d2329;
+    width: 102%;
+    margin-right: 30px;
+    padding: 12px 12px 12px 12px;
+    font-size: 16px;
+    color: #a4a4a4;
+}
+#servicename1{
+    font-size: 20px;
+    font-weight: medium;
+    color: #fff;
+}
+#sredn{
+    margin-top: -12px;
+}
+.sell_section{
+    height: 930px;
+    text-align: center;
+}
+.zagolovok6{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: -4.8%;
+}
+#why11{
+        color: #262626;
+        margin-right: 0.595%;
+
+}
+#why12{
+        color: #ff0036;
+}
+#sell2{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+#sell3{
+    margin-right: 1%;
+}
+.footer{
+    background-color: #272727;
+    height: 295px;
+    text-align: center;
+    color: #fff;
+}
+#bigtwitter{
+    float: left;
+    margin-top: 96px;
+    margin-left: 1%;
+}
+#twittersmall{
+    margin-top: 100px;
+}
